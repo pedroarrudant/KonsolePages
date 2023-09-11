@@ -5,26 +5,25 @@ namespace Core.Page
 {
     public abstract class Page
     {
-        private readonly List<IElement> elements = new List<IElement>();
-        public string output { get; set; }
+        public List<IElement> Elements = new List<IElement>();
 
-        public void AddPageElement(Element pageElement, Enum optionArg = null, string? argString = null,int? argInt = null, bool? argBool= null)
+        public void AddPageElement(Element pageElement, object? arg = null)
         {
-            var element = ElementsFactory.Factory(pageElement, optionArg, argString, argInt, argBool);
+            var element = ElementsFactory.Factory(pageElement, arg);
 
             if (element != null)
             {
-                elements.Add(element);
+                Elements.Add(element);
             }
         }
 
-        public void RemovePageElement(IElement pageElement) { elements.Remove(pageElement); }
+        public void RemovePageElement(IElement pageElement) { Elements.Remove(pageElement); }
 
-        public void Clear() { elements.Clear(); }
+        public void Clear() { Elements.Clear(); }
 
         public T GeneratePage<T>()
         {
-            foreach (var element in elements)
+            foreach (var element in Elements)
             {
                 if (element.HasReturn())
                 {

@@ -34,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\ExecutionExample\\ExecutionExample\\ExecutionExample.csproj",
+      "projectUniqueName": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\ExecutionExample\\ExecutionExample.csproj",
       "projectName": "ExecutionExample",
-      "projectPath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\ExecutionExample\\ExecutionExample\\ExecutionExample.csproj",
+      "projectPath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\ExecutionExample\\ExecutionExample.csproj",
       "packagesPath": "C:\\Users\\pedro.arruda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\ExecutionExample\\ExecutionExample\\obj\\",
+      "outputPath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\ExecutionExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -63,8 +63,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\ExecutionExample\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\ExecutionExample\\Core\\Core.csproj"
+            "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\Core.csproj"
             }
           }
         }

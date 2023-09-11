@@ -1,5 +1,7 @@
 ﻿using Core.Elements;
 using Core.Elements.Interface;
+using System.ComponentModel;
+using System.Data;
 
 namespace Core.Page
 {
@@ -26,11 +28,20 @@ namespace Core.Page
 
         public T Run<T>()
         {
+            Console.Clear();
             Header.GeneratePage<T>();
             var consoleReturn = Body.GeneratePage<T>();
             Footer.GeneratePage<T>();
 
             return consoleReturn;
+        }
+
+        public void Update()
+        {
+            Console.Clear();
+            Header.GeneratePage<object>();
+            Body.GeneratePage<object>();
+            Footer.GeneratePage<object>();
         }
     }
 }

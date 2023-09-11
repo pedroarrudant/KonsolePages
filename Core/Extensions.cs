@@ -1,8 +1,10 @@
 ﻿using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
 namespace Extensions
 {
+    [ExcludeFromCodeCoverage]
     public static class Extensions
     {
         public static string GetDescription(this Enum value)

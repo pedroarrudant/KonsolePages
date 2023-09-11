@@ -5,34 +5,20 @@ namespace Core.Elements
 {
     public class ProgressBar : IElement
     {
-        public int? percentage { get; set; }
-        public bool? autoProgress { get; set; }
         const char _block = '■';
         const string _back = "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b";
         const string _twirl = "-\\|/";
-
-        public ProgressBar(int? percentage, bool? autoProgress)
-        {
-            this.percentage = percentage;
-            this.autoProgress = autoProgress;
-        }
+        private int percentage = 0;
 
         public void Generate()
         {
-            if (autoProgress.HasValue && !autoProgress.Value)
-            {
-                WriteProgressBar(percentage.Value);
-                Console.WriteLine();
-                return;
-            }
-
-            for (int i = percentage.Value; i < 100; ++i)
-            {
-                WriteProgressBar(i, true);
-                Thread.Sleep(100);
-            }
-
+            WriteProgressBar(percentage);
             Console.WriteLine();
+
+            if (percentage < 100)
+            {
+                percentage = percentage + 25;
+            }
         }
 
         public bool HasReturn()
