@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "CoreTests/1.0.0": {
         "dependencies": {
-          "Core": "1.0.0",
+          "KonsolePages": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.5.0",
           "coverlet.collector": "3.2.0",
           "xunit": "2.4.2",
@@ -1021,9 +1021,9 @@
         }
       },
       "xunit.runner.visualstudio/2.4.5": {},
-      "Core/1.0.0": {
+      "KonsolePages/1.0.0": {
         "runtime": {
-          "Core.dll": {}
+          "KonsolePages.dll": {}
         }
       }
     }
@@ -1657,7 +1657,7 @@
       "path": "xunit.runner.visualstudio/2.4.5",
       "hashPath": "xunit.runner.visualstudio.2.4.5.nupkg.sha512"
     },
-    "Core/1.0.0": {
+    "KonsolePages/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
