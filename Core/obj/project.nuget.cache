@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "No0meW+HysY3ciPACi9ZuYSgM+Ll7K8V2kE+YSdJWJwy39rvZ1SG6c0iTzxN/DmgwLNMUEHz8htNJ8LnRzER3A==",
+  "dgSpecHash": "d+wGdMxfyBWuiQiI1jvhC+RbAV5NfDX+ThUkMZ/hANgv1u2TuWzLCG4z7zf9QWCrF141GrfSwhDyFt3spcWcCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\KonsolePages.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro.arruda\\.nuget\\packages\\dotnet.reproduciblebuilds\\1.1.1\\dotnet.reproduciblebuilds.1.1.1.nupkg.sha512",
     "C:\\Users\\pedro.arruda\\.nuget\\packages\\microsoft.build.tasks.git\\1.1.1\\microsoft.build.tasks.git.1.1.1.nupkg.sha512",

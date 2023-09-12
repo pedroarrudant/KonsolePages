@@ -401,9 +401,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\Core.csproj",
-      "projectName": "Core",
-      "projectPath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\KonsolePages.csproj",
+      "projectName": "KonsolePages",
+      "projectPath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\KonsolePages.csproj",
       "packagesPath": "C:\\Users\\pedro.arruda\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\obj\\",
       "projectStyle": "PackageReference",

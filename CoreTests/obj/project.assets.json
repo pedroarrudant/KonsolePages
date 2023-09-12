@@ -1713,14 +1713,14 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "Core/1.0.0": {
+      "KonsolePages/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/Core.dll": {}
+          "bin/placeholder/KonsolePages.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Core.dll": {}
+          "bin/placeholder/KonsolePages.dll": {}
         }
       }
     }
@@ -5517,15 +5517,15 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Core/1.0.0": {
+    "KonsolePages/1.0.0": {
       "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
+      "path": "../Core/KonsolePages.csproj",
+      "msbuildProject": "../Core/KonsolePages.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Core >= 1.0.0",
+      "KonsolePages >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
@@ -5567,8 +5567,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\Core.csproj"
+            "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\KonsolePages.csproj": {
+              "projectPath": "C:\\Users\\pedro.arruda\\Repos\\Sandbox\\KonsolePages\\Core\\KonsolePages.csproj"
             }
           }
         }
