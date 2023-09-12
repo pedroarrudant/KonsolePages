@@ -28,9 +28,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/totvstfs/raas-platform/_packaging/raas-platform/nuget/v3/index.json": {},
-          "https://www.myget.org/F/tnf/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -117,9 +115,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/totvstfs/raas-platform/_packaging/raas-platform/nuget/v3/index.json": {},
-          "https://www.myget.org/F/tnf/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -136,6 +132,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "DotNet.ReproducibleBuilds": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
