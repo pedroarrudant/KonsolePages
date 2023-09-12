@@ -31,7 +31,7 @@
  </ItemGroup>
 
 	<PropertyGroup>
-		<PackageIcon>project.ico</PackageIcon>
+		<PackageIcon>project.png</PackageIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -41,7 +41,7 @@
         - Recommended dimensions: 128x128
         - Maximum size: 1MB
     -->
-		<None Include="project.ico" Pack="true" PackagePath=""/>
+		<None Include="project.png" Pack="true" PackagePath=""/>
 	</ItemGroup>
 
 	<ItemGroup>
