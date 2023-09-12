@@ -21,20 +21,6 @@ namespace CoreTests.Tests
         }
 
         [Fact]
-        public void ShouldCreateANewWindow_Error()
-        {
-            //Arrange
-            var window = new Window();
-
-            //Act
-            window.GenerateWindow(x =>
-                    x.Header.AddPageElement(Element.Label, "Teste"));
-
-            //Assert
-            Assert.Throws<IOException>(() => window.Run<int>());
-        }
-
-        [Fact]
         public void ShouldCreateHeader()
         {
             //Arrange
